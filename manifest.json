@@ -1,0 +1,26 @@
+{
+  "name": "Duolingo Marathon",
+  "version": "1.0.0.0",
+  "description": "Duolingo with less mouse usage.",
+  "permissions": ["https://www.duolingo.com/", "webNavigation", "tabs", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/duom16.png",
+      "32": "images/duom32.png",
+      "48": "images/duom48.png",
+      "128": "images/duom128.png"
+    }
+  },
+  "icons": {
+    "16": "images/duom16.png",
+    "32": "images/duom32.png",
+    "48": "images/duom48.png",
+    "128": "images/duom128.png"
+  },
+  "manifest_version": 2
+}
